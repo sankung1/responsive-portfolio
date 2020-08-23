@@ -1,0 +1,44 @@
+body {
+  color: #eee;
+  background-image: url(images/background.jpg);
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 25px 25px;
+  line-height: 1.5rem;
+  font-family: "Montserrat Black", sans-serif;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #303030;
+  color: white;
+  text-align: center;
+}
+.title {
+  border: solid;
+  background-color: white;
+  border-color: black;
+  margin: 10% 10%;
+}
+.icons{
+  color: #eee;
+  margin-right: 5px;
+}
+.icons:hover{
+  color: darkgrey;
+}
+.images {
+  margin-bottom: 5px;
+}
+
+.about-text {
+  padding: 25px 25px;
+}
+.form {
+  padding: 25px 25px;
+}

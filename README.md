@@ -1,1 +1,1 @@
-# responsive-portfolio
+# responsive-portfolio for my second assignment
