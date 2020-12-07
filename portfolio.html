@@ -1,188 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/a0a0bfff18.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a0a0bfff18.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="">Sankung Sillah</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="">Sankung Sillah</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-
     <main>
-
-        <section class="title">
-
-
-
-            <div class="container ">
-                <h1>Portfolio</h1>
-                <hr>
-                <h2>Destination Planner</h2>
-                <div class="row margin">
-                    <div class="col-md-4">
-                        <img src="images/project1.png" class="img-fluid img-thumbnail images" alt="Responsive image">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/result.png" class="img-fluid img-thumbnail images" alt="Responsive image">
-                    </div>
-                    <div class="col-md-4">
-                        <p>
-                            This is a destination planner app. The sole purpose of this app is to give the user a quick
-                            description about the searched city. It is a group project done by me and 4 other
-                            developers. HTML and CSS were used to structure and style the website along with javaScript
-                            to add some logic and dynamically create some html elements.
-                            We used 3 API's for this project. The google API to give the user the map and picture of the
-                            searched city, the open weather api to give the user a quick information about the current
-                            weather of the searched city as well as the next 7 days. The trip advisor API is used to
-                            give the user the names of 3 hotels in the searched city.
-
-                        </p>
-                        <p>
-                            <a href="https://seahopki12.github.io/vacation_planner/">Here's a link to the deployed
-                                app</a>
-                        </p>
-                        <p>
-                            <a href="https://github.com/seahopki12/vacation_planner.git">Here's
-                                a link to the Github
-                                respository</a>
-                        </p>
-                    </div>
-
-                </div>
-                <hr>
-                <h2>Weather-Dashboard</h2>
-                <div class="row margin">
-                    <div class="col-md-6">
-                        <img src="images/Weather-Dasboard.png" class="img-fluid img-thumbnail images"
-                            alt="Responsive image">
-                    </div>
-
-                    <div class="col-md-6">
-                        <p>This a weather Dasboard application. It has a search input where the user can enter the name
-                            of a city and the application will return the weather information for the current day and
-                            the next 5 days. A searched history will also be generated whenever the user searches for a
-                            new city. The user can also click on one of the search histories to display the weather
-                            information without having to seach for the name again. I used javaScript to dynamically
-                            create the html elements and also the css properties. The openweather API is used to give
-                            the
-                            user the weather information they are looking for. The color of the UV index changes
-                            depending on it's severity. JavaScript is used to add this logic to the application.
-
-                        </p>
-                        <p>
-                            <a href="https://sankung1.github.io/Weather-Dashboard/Develop/index.html?">Here's
-                                a link to the
-                                deployed app
-                            </a>
-                        </p>
-                        <p>
-                            <a href="https://github.com/sankung1/Weather-Dashboard.git">Here's
-                                a link to the Github
-                                respository</a>
-                        </p>
-                    </div>
-
-                </div>
-                <hr>
-                <h2>Work Day Scheduler</h2>
-                <div class="row margin">
-                    <div class="col-md-6">
-                        <img src="images/dayPlanner.png" class="img-fluid img-thumbnail images" alt="Responsive image">
-                    </div>
-                    <div class="col-md-6">
-                        <p>
-                            This is a work day scheduler app. It allows the user to add things to do at scheduled work
-                            hours
-                            from 9-5pm. The user can write things they want to do in the text area and click the save
-                            button to save the new event in the app. Using the browwers local storage, the user can
-                            still see the added event even after they click on the browers refresh button. I use
-                            JavaScript to create the html elements and add the css properties to the app. The app is
-                            timed from 9-5. Each time is color coded dynamically using JavaScript and also moment.js. If
-                            the hour of the
-                            day has already passed the text area will by colored grey. If the hour in the app is the
-                            current real time hour, the text area is colored red to tell the user the event is due or
-                            running. If the hour in the app is a future hour then the text color will be green. All this
-                            is done with the javaScrip and moment.js.
-
-                        </p>
-                        <p>
-                            <a href=" https://sankung1.github.io/day-planner/Develop/index.html">Here's
-                                a link to the deployed app</a>
-                        </p>
-                        <p>
-                            <a href="https://github.com/sankung1/day-planner.git">Here's
-                                a link to the Github respository</a>
-                        </p>
-                    </div>
-
-                </div>
-                <hr>
-
+      <section class="title">
+        <div class="container">
+          <h1>Portfolio</h1>
+          <hr />
+          <h2>Destination Planner</h2>
+          <div class="row margin">
+            <div class="col-md-4">
+              <img
+                src="images/project1.png"
+                class="img-fluid img-thumbnail images"
+                alt="Responsive image"
+              />
             </div>
-        </section>
+            <div class="col-md-4">
+              <img
+                src="images/result.png"
+                class="img-fluid img-thumbnail images"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-md-4">
+              <p>
+                This is a destination planner app. The sole purpose of this app
+                is to give the user a quick description about the searched city.
+                It is a group project done by me and 4 other developers. HTML
+                and CSS were used to structure and style the website along with
+                javaScript to add some logic and dynamically create some html
+                elements. We used 3 API's for this project. The google API to
+                give the user the map and picture of the searched city, the open
+                weather api to give the user a quick information about the
+                current weather of the searched city as well as the next 7 days.
+                The trip advisor API is used to give the user the names of 3
+                hotels in the searched city.
+              </p>
+              <p>
+                <a href="https://seahopki12.github.io/vacation_planner/"
+                  >Here's a link to the deployed app</a
+                >
+              </p>
+              <p>
+                <a href="https://github.com/seahopki12/vacation_planner.git"
+                  >Here's a link to the Github respository</a
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+          <h2>The Traveler's Memoir</h2>
+          <div class="row margin">
+            <div class="col-md-4">
+              <img
+                src="images/project2...png"
+                class="img-fluid img-thumbnail images"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="images/project2.png"
+                class="img-fluid img-thumbnail images"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-md-4">
+              <p>
+                This application is for travel enthusiasts. The user can sign up
+                and login to our app then the user will be directed our member's
+                page. The member's page will welcome the user, and in that page
+                the user will have a lot of things to do from creating a blog to
+                share the'r travel experiences to reading about other members
+                latest travel journey. The members page also have an explore
+                page for the user to explore other features we have in our app.
+                These features give the user travel tips we obtained from
+                external APIs. This app was done by me and 3 other developers.
+                We used passport js for our user authentication. We used Nodejs
+                and express to write our server side code and MySQL for our
+                database server. We used MVC as our design pattern. 
+              </p>
+              <p>
+                <a href="https://project-2-vasd.herokuapp.com/"
+                  >Here's a link to the deployed app</a
+                >
+              </p>
+              <p>
+                <a href="https://github.com/sankung1/project-2"
+                  >Here's a link to the Github respository</a
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+          <h2>Weather-Dashboard</h2>
+          <div class="row margin">
+            <div class="col-md-6">
+              <img
+                src="images/Weather-Dasboard.png"
+                class="img-fluid img-thumbnail images"
+                alt="Responsive image"
+              />
+            </div>
+
+            <div class="col-md-6">
+              <p>
+                This a weather Dasboard application. It has a search input where
+                the user can enter the name of a city and the application will
+                return the weather information for the current day and the next
+                5 days. A searched history will also be generated whenever the
+                user searches for a new city. The user can also click on one of
+                the search histories to display the weather information without
+                having to seach for the name again. I used javaScript to
+                dynamically create the html elements and also the css
+                properties. The openweather API is used to give the user the
+                weather information they are looking for. The color of the UV
+                index changes depending on it's severity. JavaScript is used to
+                add this logic to the application.
+              </p>
+              <p>
+                <a
+                  href="https://sankung1.github.io/Weather-Dashboard/Develop/index.html?"
+                  >Here's a link to the deployed app
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/sankung1/Weather-Dashboard.git"
+                  >Here's a link to the Github respository</a
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+          <h2>Work Day Scheduler</h2>
+          <div class="row margin">
+            <div class="col-md-6">
+              <img
+                src="images/dayPlanner.png"
+                class="img-fluid img-thumbnail images"
+                alt="Responsive image"
+              />
+            </div>
+            <div class="col-md-6">
+              <p>
+                This is a work day scheduler app. It allows the user to add
+                things to do at scheduled work hours from 9-5pm. The user can
+                write things they want to do in the text area and click the save
+                button to save the new event in the app. Using the browwers
+                local storage, the user can still see the added event even after
+                they click on the browers refresh button. I use JavaScript to
+                create the html elements and add the css properties to the app.
+                The app is timed from 9-5. Each time is color coded dynamically
+                using JavaScript and also moment.js. If the hour of the day has
+                already passed the text area will by colored grey. If the hour
+                in the app is the current real time hour, the text area is
+                colored red to tell the user the event is due or running. If the
+                hour in the app is a future hour then the text color will be
+                green. All this is done with the javaScrip and moment.js.
+              </p>
+              <p>
+                <a
+                  href=" https://sankung1.github.io/day-planner/Develop/index.html"
+                  >Here's a link to the deployed app</a
+                >
+              </p>
+              <p>
+                <a href="https://github.com/sankung1/day-planner.git"
+                  >Here's a link to the Github respository</a
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </section>
     </main>
     <!-- footer -->
-        <footer class="footer">
-            <p>Contact Me</p>
-            <a class="icons" href="https://www.linkedin.com/in/sankung-sillah-522673175/"><i
-                    class="fab fa-linkedin"></i></a>
-            <a class="icons" href="https://github.com/sankung1"><i class="fab fa-github"></i></a>
-            <a class="icons" href="mailto:montesillah@gmail.com"><i class=" fas fa-envelope"></i></a>
-            <a class="icons" href="tel:6785397040"><i class="fas fa-phone"></i></a>
-            <p>&#x24B8; Copyright 2020 Sankung Sillah</p>
-        </footer>
-
-
-
-
-
-
+    <footer class="footer">
+      <p>Contact Me</p>
+      <a
+        class="icons"
+        href="https://www.linkedin.com/in/sankung-sillah-522673175/"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a class="icons" href="https://github.com/sankung1"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a class="icons" href="mailto:montesillah@gmail.com"
+        ><i class="fas fa-envelope"></i
+      ></a>
+      <a class="icons" href="tel:6785397040"><i class="fas fa-phone"></i></a>
+      <p>&#x24B8; Copyright 2020 Sankung Sillah</p>
+    </footer>
 
     <!-- Bootstrap JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
